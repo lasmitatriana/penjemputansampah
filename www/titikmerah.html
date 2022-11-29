@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>PhoneGap</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
+    <script type="text/javascript" src="components/loader.js"></script>
+    <link rel="stylesheet" type="text/css" href="components/loader.css">
+    <script type="text/javascript">
+        document.addEventListener("deviceready", onDeviceReady, false);
+        function onDeviceReady(){
+            console.log("PhoneGap is ready.");
+        }
+    </script>
+    <style>
+    .button {
+     /* merah */
+      border: none;
+      color: white;
+      padding: 70px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 20px;
+      cursor: pointer;
+      }
+      .button2 {border-radius: 50%;
+      background-color:#FF0000;}
+      .tengah{
+          margin-top:200px;
+          width: 100px;
+      }   
+      .button2{
+          margin-top:250px;
+      }   
+      .button2:hover {
+    background-color: #cc0000;
+      }
+      </style>
+    <link rel="stylesheet" href="css/master.css" type="text/css" media="screen" title="no title">
+   
+  </head>
+  <body id="stage" class="theme titik_merah">
+      <center>
+                <h3>Klik mengetahui titik koordinat anda</h3>
+             <a href="#" id="btn_location" class="btn large"></a>
+            <!-- <div>
+              <a href="list.html">
+               <img class="tengah" src="img/panah.png" alt="tombol" height="80" width="80">
+	        </a>
+            </div> -->
+      </center>
+    </div>
+    <script type="text/javascript" charset="utf-8" src="js/index.js"></script>
+  </body>
+</html>
